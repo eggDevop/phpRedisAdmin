@@ -1,6 +1,7 @@
 <?php
 
-include 'config.sample.inc.php';
+#include 'config.sample.inc.php';
+include 'config.staging.php'
 
 $admin_user = getenv('ADMIN_USER');
 $admin_pass = getenv('ADMIN_PASS');
