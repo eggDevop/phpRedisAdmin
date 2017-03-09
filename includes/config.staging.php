@@ -5,7 +5,7 @@ $config = array(
   'servers' => array(
     array(
       'name'   => 'staging server', // Optional name.
-      'host'   => '192.168.110.139',
+      'host'   => '192.168.110.138',
       'port'   => 6379,
       'filter' => '*',
       'scheme' => 'tcp', // Optional. Connection scheme. 'tcp' - for TCP connection, 'unix' - for connection by unix domain socket
